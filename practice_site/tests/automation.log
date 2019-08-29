@@ -1,0 +1,23 @@
+08/29/2019 10:28:30 AM - NavigationPage - INFO: Element found with locator: //li[@class='tree-branch']//a[contains(text(),'Input Forms')] and  locatorType: xpath
+08/29/2019 10:28:30 AM - NavigationPage - INFO: Clicked on element with locator: //li[@class='tree-branch']//a[contains(text(),'Input Forms')] locatorType: xpath
+08/29/2019 10:28:30 AM - NavigationPage - INFO: Element found with locator: //li[@class='tree-branch']//ul//li//a[contains(text(),'Radio Buttons Demo')] and  locatorType: xpath
+08/29/2019 10:28:31 AM - NavigationPage - INFO: Clicked on element with locator: //li[@class='tree-branch']//ul//li//a[contains(text(),'Radio Buttons Demo')] locatorType: xpath
+08/29/2019 10:28:31 AM - Util - INFO: Actual Text From Application Web UI --> :: Selenium Easy Demo - Radio buttons demo for Automation
+08/29/2019 10:28:31 AM - Util - INFO: Expected Text From Application Web UI --> :: Selenium Easy Demo - Radio buttons demo for Automation
+08/29/2019 10:28:31 AM - Util - INFO: ### VERIFICATION CONTAINS !!!
+08/29/2019 10:28:31 AM - Status - INFO: ### VERIFICATION SUCCESSFUL :: + Verify page Title
+08/29/2019 10:28:31 AM - RadioPage - INFO: Element found with locator: //input[@value='Male' and @name ='optradio'] and  locatorType: xpath
+08/29/2019 10:28:31 AM - RadioPage - INFO: Clicked on element with locator: //input[@value='Male' and @name ='optradio'] locatorType: xpath
+08/29/2019 10:28:31 AM - RadioPage - INFO: Element found with locator: //button[@id='buttoncheck'] and  locatorType: xpath
+08/29/2019 10:28:31 AM - RadioPage - INFO: Clicked on element with locator: //button[@id='buttoncheck'] locatorType: xpath
+08/29/2019 10:28:31 AM - RadioPage - INFO: Element found with locator: //p[contains(text(), "Radio button 'Male' is checked")] and  locatorType: xpath
+08/29/2019 10:28:31 AM - RadioPage - INFO: Element present with locator: //p[contains(text(), "Radio button 'Male' is checked")] locatorType: xpath
+08/29/2019 10:28:31 AM - Status - INFO: ### VERIFICATION SUCCESSFUL :: + Verify male radio button
+08/29/2019 10:28:31 AM - RadioPage - INFO: Element found with locator: //input[@value='Female' and @name ='optradio'] and  locatorType: xpath
+08/29/2019 10:28:32 AM - RadioPage - INFO: Clicked on element with locator: //input[@value='Female' and @name ='optradio'] locatorType: xpath
+08/29/2019 10:28:32 AM - RadioPage - INFO: Element found with locator: //button[@id='buttoncheck'] and  locatorType: xpath
+08/29/2019 10:28:32 AM - RadioPage - INFO: Clicked on element with locator: //button[@id='buttoncheck'] locatorType: xpath
+08/29/2019 10:28:32 AM - RadioPage - INFO: Element found with locator: //p[contains(text(), "Radio button 'Female' is checked")] and  locatorType: xpath
+08/29/2019 10:28:32 AM - RadioPage - INFO: Element present with locator: //p[contains(text(), "Radio button 'Female' is checked")] locatorType: xpath
+08/29/2019 10:28:32 AM - Status - INFO: ### VERIFICATION SUCCESSFUL :: + Verify female radio button
+08/29/2019 10:28:32 AM - Status - INFO: Radio Button Tests ### TEST SUCCESSFUL

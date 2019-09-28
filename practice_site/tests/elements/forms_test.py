@@ -14,6 +14,7 @@ class FormsTest(unittest.TestCase):
         self.ts = Status(self.driver)
 
     @pytest.mark.run()
+    # running test for navigation to page and inputting text into text box
     def test_message(self):
         self.forms.verifyTitle()
         title = self.forms.verifyTitle()
@@ -22,6 +23,7 @@ class FormsTest(unittest.TestCase):
         self.ts.mark(message, "Verify message entered in form box 1")
 
     @pytest.mark.run()
+    # running test for sum from entries in a text box
     def test_total(self):
         total = self.forms.verifyTotal()
         self.ts.markFinal("test_total", total, "Verify total entered in form box 2")

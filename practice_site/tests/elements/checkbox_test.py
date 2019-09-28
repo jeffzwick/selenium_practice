@@ -12,6 +12,7 @@ class CheckboxTest(unittest.TestCase):
         self.ts = Status(self.driver)
 
     @pytest.mark.run(order=1)
+    # running tests for checkbox page and single checkbox feature
     def test_singleCheckbox(self):
         title = self.check.verifyTitle()
         self.ts.mark(title, "Verify page Title")
@@ -21,11 +22,13 @@ class CheckboxTest(unittest.TestCase):
         self.ts.mark(message_removed, "Verify message removed on uncheck")
 
     @pytest.mark.run(order=2)
+    #running test for uncheck of checkbox feature
     def test_uncheck(self):
         uncheck = self.check.verifyUncheckButton()
         self.ts.mark( uncheck, "Verify uncheck")
 
     @pytest.mark.run(order=3)
+    #running test for check of checkbox feature
     def test_check(self):
         check = self.check.verifyCheckButton()
         self.ts.markFinal("test_check", check, "Verify check")

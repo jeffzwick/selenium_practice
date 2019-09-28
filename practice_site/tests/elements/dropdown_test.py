@@ -12,6 +12,7 @@ class DropdownTest(unittest.TestCase):
         self.ts = Status(self.driver)
 
     @pytest.mark.run(order=1)
+    # running test for dropdown feature, using a single select dropdown
     def test_SingleDrop(self):
         title = self.drop.verifyTitle()
         self.ts.mark(title, "Verify page Title")
